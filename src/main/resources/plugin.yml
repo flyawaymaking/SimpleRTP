@@ -1,5 +1,5 @@
 name: SimpleRTP
-version: 1.0.0
+version: 1.1.0
 main: com.flyaway.simplertp.SimpleRTP
 api-version: 1.21
 description: Плагин для лучайной телепортации
@@ -18,4 +18,7 @@ commands:
 permissions:
   rtp.reload:
     description: Позволяет пользователю перезагрузить конфигурацию плагина RTP.
+    default: op
+  rtp.bypass:
+    description: Использование без перезарядки
     default: op
