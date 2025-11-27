@@ -201,6 +201,7 @@ public class SimpleRTP extends JavaPlugin implements Listener {
             }
         } while (!isLocationSafe(safeLocation));
 
+        safeLocation = safeLocation.add(0, 1, 0);
         targetWorld.getChunkAt(safeLocation).load();
         player.teleport(safeLocation);
     }

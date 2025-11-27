@@ -1,5 +1,5 @@
 name: SimpleRTP
-version: 1.1.0
+version: 1.1.1
 main: com.flyaway.simplertp.SimpleRTP
 api-version: 1.21
 description: Плагин для случайной телепортации
